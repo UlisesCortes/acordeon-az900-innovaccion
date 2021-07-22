@@ -31,6 +31,7 @@ Azure Firewall proporciona una ubicación central para crear, aplicar y registra
 - Azure Firewall solo cuando no hay aplicaciones web en la red virtual.
 
 ## Azure Aplication Gateway
+Azure Firewall le permite limitar el tráfico HTTP/S saliente a una lista especificada de nombres de dominio completos (FQDN).
 Es un **equilibrador de carga de tráfico web administrado y un proxy inverso completo HTTP(S)** que puede realizar cifrado y descifrado de capa de conexión segura (SSL). Application Gateway también utiliza Web Application Firewall para **inspeccionar el tráfico web y detectar ataques en la capa HTTP**. 
 
 - Application Gateway solo cuando solo hay aplicaciones web en la red virtual y los grupos de seguridad de red (NSG) proporcionan un filtrado de salida optimo.
@@ -42,6 +43,7 @@ Es un **equilibrador de carga de tráfico web administrado y un proxy inverso co
 ## Azure DDoS Protection
 Azure DDoS Protection ayuda a proteger los recursos frente a **ataques DDoS\***.
 
+DDoS Protection ayuda a proteger sus recursos de Azure frente a ataques DDoS. Un ataque DDoS intenta sobrecargar y agotar los recursos de una aplicación, lo que provoca que la aplicación sea lenta o no responda a los usuarios legítimos
 La red global de Azure se usa para distribuir y mitigar el tráfico de ataques entre regiones de Azure.
 
 Esta herramienta tiene dos niveles de servicio:
